@@ -46,6 +46,7 @@ end
 
 group :test, :development do
   gem "rspec-rails", "2.13.1"
+  gem "launchy"
 end
 
 group :test do
