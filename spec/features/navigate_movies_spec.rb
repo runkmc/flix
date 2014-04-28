@@ -14,6 +14,6 @@ describe "Navigating movies" do
 
     visit movies_url
     click_link "Iron Man"
-    expect(current_path).to eq(movies_path(movie))
+    expect(current_path).to eq(movie_path(movie))
   end
 end
