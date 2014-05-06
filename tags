@@ -15,8 +15,15 @@ MoviesController	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb
 MoviesHelper	/Users/kevin/code/git/flix/app/helpers/movies_helper.rb	/^module MoviesHelper$/;"	m
 change	/Users/kevin/code/git/flix/db/migrate/20140327234348_create_movies.rb	/^  def change$/;"	f	class:CreateMovies
 change	/Users/kevin/code/git/flix/db/migrate/20140327234916_add_fields_to_movies.rb	/^  def change$/;"	f	class:AddFieldsToMovies
+create	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def create$/;"	f	class:MoviesController
+destroy	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def destroy$/;"	f	class:MoviesController
+edit	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def edit$/;"	f	class:MoviesController
 flop?	/Users/kevin/code/git/flix/app/models/movie.rb	/^  def flop?$/;"	f	class:Movie
 format_total_gross	/Users/kevin/code/git/flix/app/helpers/movies_helper.rb	/^  def format_total_gross(movie)$/;"	f	class:MoviesHelper
 index	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def index$/;"	f	class:MoviesController
 movie_attributes	/Users/kevin/code/git/flix/spec/support/attributes.rb	/^def movie_attributes(overrides = {})$/;"	f
+movie_params	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def movie_params$/;"	f	class:MoviesController
+new	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def new$/;"	f	class:MoviesController
+params_id	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def params_id$/;"	f	class:MoviesController
 show	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def show$/;"	f	class:MoviesController
+update	/Users/kevin/code/git/flix/app/controllers/movies_controller.rb	/^  def update$/;"	f	class:MoviesController
