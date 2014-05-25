@@ -24,4 +24,12 @@ describe "Creating a new movie" do
     
     expect(page).to have_text('New Movie Title')
   end
+
+  it "will not create an invalid movie" do
+    visit new_movie_path
+
+    expect { click_button 'Create Movie' }.not_to change(Movie, :count)
+    expect(current_path).to eq (movies_path)
+    expect(page).to have_content "error"
+  end
 end
